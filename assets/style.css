@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+body {
+  background-color: aliceblue;
+  font-family: "Lato", sans-serif;
+}
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+main {
+  background-image: linear-gradient(
+    170deg,
+    rgb(131, 179, 218) 34%,
+    rgb(88, 165, 241) 100%
+  );
+  padding: 15px;
+  border-radius: 10px;
+}
+h1 {
+  text-align: center;
+  font-size: 2em;
+}
+form {
+  padding: 15px;
+}
+/* .div-form {
+  padding: 15px;
+} */
+#Add-task {
+  padding: 10px;
+  width: 80%;
+  font-size: 1.5em;
+  border-radius: 10px;
+  margin-left: auto;
+}
+.bottone-agg {
+  display: inline-block;
+  padding: 10px;
+  font-size: 1.5em;
+  border-radius: 10px;
+  margin-left: auto;
+}
+.new-divs {
+  width: 90%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  margin-top: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+}
+.nota-nuova {
+  display: inline;
+  padding: 10px;
+}
+.deleteNow {
+  display: inline;
+}
+.nuovo-bottone {
+  display: inline-block;
+  margin-left: auto;
+}
+.cancellato {
+  text-decoration: line-through;
+}
