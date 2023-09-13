@@ -31,16 +31,12 @@ const deleteTask = function (e) {
   clickedButton.parentElement.parentElement.remove();
 };
 
-const TaskDone = function () {
-  const pElim = document.getElementsByClassName("new-divs");
-  for (let i = 0; i < pElim.length; i++) {
-    pElim[i].classList.add("cancellato");
-  }
+const TaskDone = function (e) {
+  const clickedButton = e.target;
+  clickedButton.parentElement.parentElement.classList.add("cancellato");
 };
 
-const TaskUnDone = function () {
-  const pElim = document.getElementsByClassName("new-divs");
-  for (let i = 0; i < pElim.length; i++) {
-    pElim[i].classList.remove("cancellato");
-  }
+const TaskUnDone = function (e) {
+  const clickedButton = e.target;
+  clickedButton.parentElement.parentElement.classList.remove("cancellato");
 };
